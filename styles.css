@@ -1,0 +1,138 @@
+.bg{
+  background-image: url("./images/gardening1.jpg");
+  height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+#navbar-section {
+  font-family: "Ubuntu";
+  font-size: 1rem;
+}
+
+nav.navbar {
+  background: #000;
+  opacity: 0.7;
+}
+
+.nav-link{
+  font-weight: bold;
+}
+
+.logo-top {
+  width: 6%;
+  height: 6%;
+  border-radius: 50%;
+}
+
+.site-name {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.site {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+
+
+.container1{
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.container2{
+  display: flex;
+  justify-content: center;
+}
+
+
+.box{
+  width: 480px;
+  height: 220px;
+  border: 1px #ccc solid;
+  border-radius: 25px;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+.box1{
+  margin-right: 200px;
+}
+
+.box2{
+
+}
+
+.box3{
+  margin-top: 50px;
+}
+
+h1{
+  color: #000;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+  text-align: center;
+  margin: 65px auto 40px;
+  font-size: 50px;
+  opacity: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+/*detection and classification*/
+
+.detection-bg{
+  background-image: url("./images/detection1.jpg");
+  height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.classification-bg{
+  background-image: url("./images/weed2.jpg");
+  height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.top-heading{
+  font-size: 120px;
+  color: #fff;
+  margin-bottom: 280px;
+}
+
+
+.btn-warning{
+  position: relative;
+  padding: 11px 16px;
+  font-size: 15px;
+  line-height: 1.5;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #ffc100;
+  border: 0;
+  overflow: hidden;
+}
+
+.btn-warning input[type="file"]{
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(5);
+  opacity: 0;
+}
